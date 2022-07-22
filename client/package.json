@@ -15,7 +15,7 @@
     "lint:ls": "ls-lint",
     "format": "prettier --check \"./src/**/*.{ts,tsx}\"",
     "format:write": "prettier --write \"./src/**/*.{ts,tsx}\"",
-    "prepare": "husky install"
+    "prepare": "cd .. && husky install"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -56,7 +56,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^26.1.3",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.0",
+    "husky": "^8.0.0",
     "postcss": "^8.4.12",
     "prettier": "^2.6.1",
     "react-scripts": "^5.0.0",
